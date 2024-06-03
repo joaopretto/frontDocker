@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5e5e5e;
+    margin: 0;
+    padding: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    width: 350px;
+}
+
+.addButton{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.addAluno{
+    width: 10em;
+    height: 3em;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #457c46;
+}
+
+.addAluno:hover{
+    background-color: #679768;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #3b663c;
+    color: white;
+}
